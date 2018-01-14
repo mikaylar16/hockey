@@ -1,0 +1,127 @@
+header {
+  height: 300px;
+  background-color: grey;
+  vertical-align: middle;
+  background-image: url(ice.jpg);
+  background-position: bottom;
+}
+
+nav{
+  float: right;
+  padding: 15px 30px 0 0;
+}
+
+header a {
+  /* float: right; */
+  display: inline;
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+header h1 {
+  margin: 0px;
+  color: #c10435;
+  font-size: 72px;
+  text-align: center;
+  padding-top: 75px;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+header span {
+  border-top: 5px solid #c10435;
+  border-bottom: 5px solid #c10435;
+  display: inline-block;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  margin: 0px;
+}
+
+/* #box {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+} */
+
+table {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 18px;
+  border-collapse: collapse;
+  /* border-spacing: 0; */
+}
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+th{
+  height: 50px;
+  background-color: #c10435;
+  color: white;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+td{
+  height: 30px;
+  padding: 5px;
+}
+
+#roster {
+  text-align: center;
+  background-color: white;
+  margin: 0px;
+  padding: 90px;
+}
+
+#roster-year {
+  margin: 0px;
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+
+#coaches {
+  background-color: #f5f5f5;
+}
+
+#coaches h3 {
+  text-align: center;
+
+}
+
+#coach-title {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#face-lockup {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+#face-img img {
+  border-radius: 50%;
+  padding-right: 10px;
+}
+
+#blurb {
+
+}
+
+footer {
+  min-height: 100px;
+  background-color: grey;
+}
