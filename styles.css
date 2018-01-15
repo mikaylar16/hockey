@@ -43,6 +43,7 @@ body {
 
 html{
   margin: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* #box {
@@ -52,24 +53,38 @@ html{
 } */
 
 table {
-  width: 85%;
+  width: 70%;
   margin: 0 auto;
   font-size: 18px;
   border-collapse: collapse;
   /* border-spacing: 0; */
 }
-tr:hover {
+
+#roster-table tr:hover {
   background-color: #f5f5f5;
 }
 
-th{
+#roster-table th{
   height: 50px;
   background-color: #c10435;
   color: white;
 }
 
-th, td {
+#schedule-table tr:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#schedule-table {
+  color: white;
+}
+
+#roster-table th, td {
   border-bottom: 1px solid #ddd;
+}
+
+#schedule-table th, td {
+  border: none;
 }
 
 td{
@@ -92,21 +107,26 @@ td{
 
 #coaches {
   background-color: #f5f5f5;
-}
-
-#coaches h3 {
-  text-align: center;
-
+  padding: 30px 0;
 }
 
 #coach-title {
-  width: 80%;
+  /* padding-top: 50px; */
+
+}
+
+#coach {
+  padding: 40px 0;
+}
+
+#coach-title {
+  width: 70%;
   margin: 0 auto;
   text-align: center;
 }
 
 #face-lockup {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   /* justify-content: space-between; */
@@ -114,14 +134,34 @@ td{
 
 #face-img img {
   border-radius: 50%;
-  padding-right: 10px;
+  /* padding-right: 10px; */
 }
 
 #blurb {
-
+  padding-left: 30px;
 }
+
+#schedule-year {
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+  font-size: 36px;
+}
+
+#schedule {
+  padding: 90px;
+  background-color: #c10435;
+}
+
+/* #schedule-container {
+  background-color: #c10435;
+} */
 
 footer {
   min-height: 100px;
   background-color: grey;
+}
+
+footer p {
+  margin: 0;
 }
